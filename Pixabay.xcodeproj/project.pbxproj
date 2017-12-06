@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		813E76B11FD74BFD008A89A4 /* ImageDetailedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813E76B01FD74BFD008A89A4 /* ImageDetailedViewController.swift */; };
+		813E76B31FD756BD008A89A4 /* FieldBookAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813E76B21FD756BD008A89A4 /* FieldBookAPIClient.swift */; };
+		813E76B51FD75919008A89A4 /* FieldBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813E76B41FD75919008A89A4 /* FieldBook.swift */; };
 		81D37BCC1FD72E0E00060820 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D37BCB1FD72E0E00060820 /* AppDelegate.swift */; };
-		81D37BCE1FD72E0E00060820 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D37BCD1FD72E0E00060820 /* ViewController.swift */; };
+		81D37BCE1FD72E0E00060820 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D37BCD1FD72E0E00060820 /* ImageViewController.swift */; };
 		81D37BD11FD72E0E00060820 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D37BCF1FD72E0E00060820 /* Main.storyboard */; };
 		81D37BD31FD72E0E00060820 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81D37BD21FD72E0E00060820 /* Assets.xcassets */; };
 		81D37BD61FD72E0E00060820 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81D37BD41FD72E0E00060820 /* LaunchScreen.storyboard */; };
 		81D37BE11FD72E0E00060820 /* PixabayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D37BE01FD72E0E00060820 /* PixabayTests.swift */; };
 		81D37BEC1FD72E0E00060820 /* PixabayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D37BEB1FD72E0E00060820 /* PixabayUITests.swift */; };
+		81D37BFA1FD7306300060820 /* Network Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D37BF91FD7306300060820 /* Network Helper.swift */; };
+		81D37BFD1FD7372800060820 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D37BFC1FD7372800060820 /* ImageTableViewCell.swift */; };
+		81D37BFF1FD7384900060820 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D37BFE1FD7384900060820 /* Image.swift */; };
+		81D37C011FD73B8500060820 /* Pix API Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D37C001FD73B8500060820 /* Pix API Client.swift */; };
+		81D37C031FD73FAE00060820 /* Image API Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81D37C021FD73FAE00060820 /* Image API Client.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		813E76B01FD74BFD008A89A4 /* ImageDetailedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDetailedViewController.swift; sourceTree = "<group>"; };
+		813E76B21FD756BD008A89A4 /* FieldBookAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldBookAPIClient.swift; sourceTree = "<group>"; };
+		813E76B41FD75919008A89A4 /* FieldBook.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldBook.swift; sourceTree = "<group>"; };
 		81D37BC81FD72E0E00060820 /* Pixabay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pixabay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		81D37BCB1FD72E0E00060820 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		81D37BCD1FD72E0E00060820 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81D37BCD1FD72E0E00060820 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		81D37BD01FD72E0E00060820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		81D37BD21FD72E0E00060820 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81D37BD51FD72E0E00060820 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +58,11 @@
 		81D37BE71FD72E0E00060820 /* PixabayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PixabayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81D37BEB1FD72E0E00060820 /* PixabayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PixabayUITests.swift; sourceTree = "<group>"; };
 		81D37BED1FD72E0E00060820 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81D37BF91FD7306300060820 /* Network Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network Helper.swift"; sourceTree = "<group>"; };
+		81D37BFC1FD7372800060820 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+		81D37BFE1FD7384900060820 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		81D37C001FD73B8500060820 /* Pix API Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Pix API Client.swift"; sourceTree = "<group>"; };
+		81D37C021FD73FAE00060820 /* Image API Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image API Client.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,11 +113,17 @@
 		81D37BCA1FD72E0E00060820 /* Pixabay */ = {
 			isa = PBXGroup;
 			children = (
-				81D37BCB1FD72E0E00060820 /* AppDelegate.swift */,
-				81D37BCD1FD72E0E00060820 /* ViewController.swift */,
+				81D37BFB1FD730AF00060820 /* supporting */,
+				81D37BCD1FD72E0E00060820 /* ImageViewController.swift */,
+				81D37C021FD73FAE00060820 /* Image API Client.swift */,
+				81D37BF91FD7306300060820 /* Network Helper.swift */,
+				81D37BFE1FD7384900060820 /* Image.swift */,
+				81D37C001FD73B8500060820 /* Pix API Client.swift */,
+				813E76B21FD756BD008A89A4 /* FieldBookAPIClient.swift */,
+				813E76B41FD75919008A89A4 /* FieldBook.swift */,
 				81D37BCF1FD72E0E00060820 /* Main.storyboard */,
-				81D37BD21FD72E0E00060820 /* Assets.xcassets */,
-				81D37BD41FD72E0E00060820 /* LaunchScreen.storyboard */,
+				813E76B01FD74BFD008A89A4 /* ImageDetailedViewController.swift */,
+				81D37BFC1FD7372800060820 /* ImageTableViewCell.swift */,
 				81D37BD71FD72E0E00060820 /* Info.plist */,
 			);
 			path = Pixabay;
@@ -123,6 +145,16 @@
 				81D37BED1FD72E0E00060820 /* Info.plist */,
 			);
 			path = PixabayUITests;
+			sourceTree = "<group>";
+		};
+		81D37BFB1FD730AF00060820 /* supporting */ = {
+			isa = PBXGroup;
+			children = (
+				81D37BCB1FD72E0E00060820 /* AppDelegate.swift */,
+				81D37BD21FD72E0E00060820 /* Assets.xcassets */,
+				81D37BD41FD72E0E00060820 /* LaunchScreen.storyboard */,
+			);
+			path = supporting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +291,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81D37BCE1FD72E0E00060820 /* ViewController.swift in Sources */,
+				81D37BCE1FD72E0E00060820 /* ImageViewController.swift in Sources */,
+				813E76B51FD75919008A89A4 /* FieldBook.swift in Sources */,
+				81D37C011FD73B8500060820 /* Pix API Client.swift in Sources */,
+				81D37BFD1FD7372800060820 /* ImageTableViewCell.swift in Sources */,
+				81D37BFA1FD7306300060820 /* Network Helper.swift in Sources */,
 				81D37BCC1FD72E0E00060820 /* AppDelegate.swift in Sources */,
+				813E76B31FD756BD008A89A4 /* FieldBookAPIClient.swift in Sources */,
+				81D37BFF1FD7384900060820 /* Image.swift in Sources */,
+				813E76B11FD74BFD008A89A4 /* ImageDetailedViewController.swift in Sources */,
+				81D37C031FD73FAE00060820 /* Image API Client.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
